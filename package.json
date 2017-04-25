@@ -1,0 +1,36 @@
+{
+  "name": "pinbot",
+  "version": "0.1.0",
+  "description": "listen to channels and pins based on reactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3estudio/pinbot.git"
+  },
+  "keywords": [
+    "pinbot",
+    "pin",
+    "pinterest",
+    "slack",
+    "bot"
+  ],
+  "author": "Pagu Senna <pagusenna@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3estudio/pinbot/issues"
+  },
+  "homepage": "https://github.com/d3estudio/pinbot#readme",
+  "dependencies": {
+    "@slack/client": "^3.8.1",
+    "bluebird": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "mongodb": "^2.2.24",
+    "npmlog": "^4.0.2",
+    "request-promise": "^4.1.1",
+    "unfurl-url": "^1.0.0",
+    "urijs": "^1.18.8"
+  }
+}
